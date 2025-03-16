@@ -10,7 +10,13 @@ export const Footer = () => {
           {" "}
           CC BY-NC 4.0
         </a>
-        . Contribute on <a href="">GitHub!</a>
+        . Contribute on{" "}
+        <a
+          href="https://github.com/Hector-hub/concentration-pathways.git"
+          target="_blank"
+        >
+          GitHub!
+        </a>
       </p>
     </footer>
   );
