@@ -201,8 +201,8 @@ export const LearningPath = () => {
             >
               <h2 className="text-2xl font-bold text-white ">{path.title}</h2>
             </div>
-            <div className="sm:overflow-visible py-4 overflow-x-auto overflow-y-hidden scrollbar-hide">
-              <div className=" sm:flex  inline-flex gap-4 items-center ">
+            <div className="xl:overflow-visible py-4 overflow-x-auto overflow-y-hidden scrollbar-hide">
+              <div className="xl:flex inline-flex gap-4 items-center ">
                 {path.subjects.map((subject, idx) => (
                   <React.Fragment key={idx}>
                     <Badge
