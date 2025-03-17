@@ -1,46 +1,51 @@
 import { motion } from "framer-motion";
-
+import softwareImage from "@/assets/images/concentrations/software.webp";
+import cybersecurityImage from "@/assets/images/concentrations/cybersecurity.jpg";
+import entrepreneurshipImage from "@/assets/images/concentrations/entrepreneurship.png";
+import researchImage from "@/assets/images/concentrations/research.jpg";
+import projectManagementImage from "@/assets/images/concentrations/project-management.jpg";
+import innovationImage from "@/assets/images/concentrations/innovation.jpg";
 const concentrations = [
   {
     title: "Gestión de Software",
     description:
       "Dirigida al desarrollo, implementación y mantenimiento de soluciones tecnológicas, incluyendo metodologías ágiles y arquitectura de software.",
-    image: "src/assets/images/concentrations/software.webp",
+    image: softwareImage,
     nameId: "software",
   },
   {
     title: "Gestión de Ciberseguridad",
     description:
       "Enfocada en la protección de sistemas, redes y datos contra amenazas digitales, brindando conocimientos en seguridad informática, criptografía y gestión de riesgos.",
-    image: "src/assets/images/concentrations/cybersecurity.jpg",
+    image: cybersecurityImage,
     nameId: "cybersecurity",
   },
   {
     title: "Emprendimiento",
     description:
       "A través de esta concentración aprenderás las competencias para identificar, desarrollar y ejecutar oportunidades de negocio.",
-    image: "src/assets/images/concentrations/entrepreneurship.png",
+    image: entrepreneurshipImage,
     nameId: "entrepreneurship",
   },
   {
     title: "Investigación",
     description:
       "Desarrolla habilidades analíticas para contribuir al avance del conocimiento en tecnología, con énfasis en metodologías científicas y experimentación.",
-    image: "src/assets/images/concentrations/research.jpg",
+    image: researchImage,
     nameId: "research",
   },
   {
     title: "Gestión de Proyectos",
     description:
       "Enseña a planificar, ejecutar y supervisar proyectos tecnológicos mediante metodologías de gestión como Scrum y PMP.",
-    image: "src/assets/images/concentrations/project-management.jpg",
+    image: projectManagementImage,
     nameId: "projectManagement",
   },
   {
     title: "Innovación Tecnológica",
     description:
       "Explora nuevas tecnologías y su aplicación en la solución de problemas, promoviendo la creatividad y el desarrollo de productos disruptivos.",
-    image: "src/assets/images/concentrations/innovation.jpg",
+    image: innovationImage,
     nameId: "innovation",
   },
 ];
