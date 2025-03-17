@@ -6,8 +6,8 @@ export const Hero = () => {
   };
   return (
     <section className="relative flex items-center justify-center w-full min-h-screen bg-gradient-to-r from-gray-600 to-gray-400 text-white">
-      <div className="w-full   px-4 md:w-11/12 xl:w-8/12 text-center ">
-        <div className="flex items-center justify-center ">
+      <div className="w-full px-4 md:w-11/12 xl:w-8/12 text-center">
+        <div className="flex items-center justify-center">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
@@ -23,15 +23,14 @@ export const Hero = () => {
             />
           </svg>
         </div>
-        <h1 className="mb-3 text-4xl font-bold md:text-5xl md:leading-tight md:font-extrabold">
-          <span className="text-transparent  bg-clip-text bg-gradient-to-r from-blue-500 to-blue-400">
+        <h1 className="mb-3 text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold md:leading-tight md:font-extrabold text-center">
+          <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-blue-400">
             CONCENTRACIONES
           </span>
           <br /> UNIBE
         </h1>
 
-        <h1 className="mb-3 text-4xl font-bold  md:text-5xl md:leading-tight md:font-extrabold"></h1>
-        <p className="mb-6 text-lg  md:text-xl md:leading-normal">
+        <p className="mb-6 text-lg sm:text-xl md:text-2xl md:leading-normal">
           Sitio web creado por estudiantes para estudiantes. Descubre todas las
           concentraciones académicas, sus requisitos y las habilidades que
           desarrollarás para potenciar tu futuro en la universidad.
