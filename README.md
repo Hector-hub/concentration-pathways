@@ -1,54 +1,63 @@
-# React + TypeScript + Vite
+# Concentraciones UNIBE
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Descripción
 
-Currently, two official plugins are available:
+Concentraciones UNIBE es un sitio web creado por estudiantes para estudiantes, que permite explorar todas las concentraciones académicas disponibles en UNIBE, sus requisitos y las habilidades que desarrollarás.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Características
 
-## Expanding the ESLint configuration
+- Información detallada sobre cada concentración.
+- Rutas de aprendizaje con materias clave.
+- Código abierto y colaborativo.
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## Tecnologías Utilizadas
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+- [Vite](https://vitejs.dev/) + [React](https://react.dev/) + [TypeScript](https://www.typescriptlang.org/)
+- [Tailwind CSS](https://tailwindcss.com/) para estilos
+- [GitHub](https://github.com/Hector-hub/concentration-pathways.git) para colaboración
+
+## Instalación y Uso
+
+Sigue estos pasos para instalar y ejecutar el proyecto localmente:
+
+### 1. Clonar el repositorio
+
+```bash
+git clone https://github.com/Hector-hub/concentration-pathways.git
+cd concentraciones-unibe
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+### 2. Instalar dependencias
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
+```bash
+npm install
 ```
+
+### 3. Ejecutar el servidor de desarrollo
+
+```bash
+npm run dev
+```
+
+Esto iniciará un servidor local y podrás acceder al sitio en `http://localhost:5173/`.
+
+## Cómo Contribuir
+
+1. Haz un fork del repositorio.
+2. Crea una nueva rama (`git checkout -b mi-feature`).
+3. Realiza tus cambios y haz commit (`git commit -m 'Añadir nueva funcionalidad'`).
+4. Sube los cambios (`git push origin mi-feature`).
+5. Abre un Pull Request en GitHub.
+
+## Licencia
+
+Este proyecto está bajo la licencia [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/).
+
+## Colaboradores
+
+- **Héctor Reyes** (Matrícula: 23-0584)
+
+## Contribuir en GitHub
+
+Si deseas mejorar el sitio, revisa el código y contribuye en:
+🔗 [Repositorio en GitHub](https://github.com/Hector-hub/concentration-pathways.git)
