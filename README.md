@@ -24,7 +24,7 @@ Sigue estos pasos para instalar y ejecutar el proyecto localmente:
 
 ```bash
 git clone https://github.com/Hector-hub/concentration-pathways.git
-cd concentraciones-unibe
+cd concentration-pathways
 ```
 
 ### 2. Instalar dependencias
