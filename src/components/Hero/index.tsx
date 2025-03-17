@@ -7,11 +7,27 @@ export const Hero = () => {
   return (
     <section className="relative flex items-center justify-center w-full min-h-screen bg-gradient-to-r from-gray-600 to-gray-400 text-white">
       <div className="w-full   px-4 md:w-11/12 xl:w-8/12 text-center ">
+        <div className="flex items-center justify-center ">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="#ffffff"
+            className="size-25"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M4.26 10.147a60.438 60.438 0 0 0-.491 6.347A48.62 48.62 0 0 1 12 20.904a48.62 48.62 0 0 1 8.232-4.41 60.46 60.46 0 0 0-.491-6.347m-15.482 0a50.636 50.636 0 0 0-2.658-.813A59.906 59.906 0 0 1 12 3.493a59.903 59.903 0 0 1 10.399 5.84c-.896.248-1.783.52-2.658.814m-15.482 0A50.717 50.717 0 0 1 12 13.489a50.702 50.702 0 0 1 7.74-3.342M6.75 15a.75.75 0 1 0 0-1.5.75.75 0 0 0 0 1.5Zm0 0v-3.675A55.378 55.378 0 0 1 12 8.443m-7.007 11.55A5.981 5.981 0 0 0 6.75 15.75v-1.5"
+            />
+          </svg>
+        </div>
         <h1 className="mb-3 text-4xl font-bold md:text-5xl md:leading-tight md:font-extrabold">
-          CONCENTRACIONES <br />{" "}
           <span className="text-transparent  bg-clip-text bg-gradient-to-r from-blue-500 to-blue-400">
-            UNIBE
+            CONCENTRACIONES
           </span>
+          <br /> UNIBE
         </h1>
 
         <h1 className="mb-3 text-4xl font-bold  md:text-5xl md:leading-tight md:font-extrabold"></h1>
