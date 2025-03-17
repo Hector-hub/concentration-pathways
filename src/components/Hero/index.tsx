@@ -44,7 +44,7 @@ export const Hero = () => {
       >
         <div className="bg-gray-400 items-center mb-4 rounded ">
           <div className="italic text-white p-2   text-lg pl-4">
-            "Lugar donde se concentran las concentraciones."
+            "El lugar donde se concentran las concentraciones."
           </div>
         </div>
         <div className="w-6 h-6 border-2 border-white-500 rounded-full  animate-bounce"></div>

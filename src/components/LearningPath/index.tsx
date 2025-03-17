@@ -201,24 +201,25 @@ export const LearningPath = () => {
             >
               <h2 className="text-2xl font-bold text-white ">{path.title}</h2>
             </div>
+            <div className="sm:overflow-visible py-4 overflow-x-auto overflow-y-hidden scrollbar-hide">
+              <div className=" sm:flex  inline-flex gap-4 items-center ">
+                {path.subjects.map((subject, idx) => (
+                  <React.Fragment key={idx}>
+                    <Badge
+                      code={subject.code}
+                      description={subject.description}
+                      prerequisite={subject.prerequisite}
+                      color={`${path.badgeColors}`} // Using different colors for each subject
+                      borderColor={` bg-gradient-to-r ${path.badgeColorsBorder} `}
+                      textColor={" text-black"}
+                    />
 
-            <div className="flex flex-wrap gap-4 items-center">
-              {path.subjects.map((subject, idx) => (
-                <React.Fragment key={idx}>
-                  <Badge
-                    code={subject.code}
-                    description={subject.description}
-                    prerequisite={subject.prerequisite}
-                    color={`${path.badgeColors}`} // Using different colors for each subject
-                    borderColor={` bg-gradient-to-r ${path.badgeColorsBorder} `}
-                    textColor={" text-black"}
-                  />
-
-                  {idx < path.subjects.length - 1 && (
-                    <span className="text-xl text-gray-600">→</span> // Arrow between badges
-                  )}
-                </React.Fragment>
-              ))}
+                    {idx < path.subjects.length - 1 && (
+                      <span className="text-xl text-gray-600">→</span> // Arrow between badges
+                    )}
+                  </React.Fragment>
+                ))}
+              </div>
             </div>
           </div>
         ))}
