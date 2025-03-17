@@ -1,4 +1,4 @@
-import { motion } from "framer-motion";
+import { motion } from "motion/react";
 import softwareImage from "@/assets/images/concentrations/software.webp";
 import cybersecurityImage from "@/assets/images/concentrations/cybersecurity.jpg";
 import entrepreneurshipImage from "@/assets/images/concentrations/entrepreneurship.png";
@@ -42,9 +42,9 @@ const concentrations = [
     nameId: "projectManagement",
   },
   {
-    title: "Innovación Tecnológica",
+    title: "Innovación + Desarrollo",
     description:
-      "Explora nuevas tecnologías y su aplicación en la solución de problemas, promoviendo la creatividad y el desarrollo de productos disruptivos.",
+      "Diseñada para ofrecer a nuestros estudiantes una experiencia enriquecedora y orientada hacia la innovación y el desarrollo de habilidades creativas y emprendedoras.",
     image: innovationImage,
     nameId: "innovation",
   },

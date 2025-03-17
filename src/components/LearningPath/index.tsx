@@ -161,7 +161,7 @@ const learningPaths = [
   },
   {
     nameId: "innovation",
-    title: "Innovación Tecnológica",
+    title: "Innovación + Desarrollo",
     subjects: [
       {
         code: "TI3-111",
