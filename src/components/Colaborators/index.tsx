@@ -1,3 +1,5 @@
+import hectorReyes from "@/assets/images/colabotators/hector-reyes.png";
+
 export const Colaborators = () => {
   return (
     <main className="container mx-auto px-6 py-16">
@@ -8,7 +10,7 @@ export const Colaborators = () => {
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
         <div className="bg-white p-6 rounded-lg shadow-md text-center">
           <img
-            src="src/assets/images/colabotators/hector-reyes.png"
+            src={hectorReyes}
             alt="Héctor Reyes"
             className="w-32 h-32 rounded-full mx-auto mb-4"
           />
