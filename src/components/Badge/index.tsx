@@ -29,7 +29,7 @@ export const Badge = ({
       {/* Contenedor de texto */}
       <div className="absolute inset-0 flex flex-col items-center justify-center transform -rotate-90 text-center">
         {/* Código */}
-        <span className="text-lg font-bold text-blue-900 drop-shadow-md">
+        <span className="text-lg font-bold text-white drop-shadow-md">
           {code}
         </span>
 
