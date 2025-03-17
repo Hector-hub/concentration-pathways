@@ -56,6 +56,10 @@ Este proyecto está bajo la licencia [CC BY-NC 4.0](https://creativecommons.org/
 ## Colaboradores
 
 - **Héctor Reyes** (Matrícula: 23-0584)
+- **Luis Pascual** (Matrícula: 23-0238)
+- **Onily Valera** (Matrícula: 23-0895)
+- **Johnny Rondón** (Matrícula: 23-0421)
+- **Miguel Cuevas** (Matrícula: 23-0688)
 
 ## Contribuir en GitHub
 
