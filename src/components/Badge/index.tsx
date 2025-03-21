@@ -13,7 +13,7 @@ export const Badge = ({
   borderColor?: string;
   textColor?: string;
 }) => (
-  <div className="relative w-48 h-44  group">
+  <div className="relative w-48 h-42  group">
     {/* Borde externo */}
     <div
       className={`absolute w-full h-full ${borderColor} 

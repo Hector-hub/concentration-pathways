@@ -1,12 +1,16 @@
 import hectorReyes from "@/assets/images/colabotators/hector-reyes.png";
-import dafaultProfile from "@/assets/images/colabotators/dafault-profile.png";
+// import dafaultProfile from "@/assets/images/colabotators/dafault-profile.png";
+import miguelCuevas from "@/assets/images/colabotators/miguel-cuevas.jpeg";
+import onilyValera from "@/assets/images/colabotators/onily-valera.jpeg";
+import johnnyRondon from "@/assets/images/colabotators/johnny-rondon.png";
+import luisPascual from "@/assets/images/colabotators/luis-pascual.png";
 
 const collaborators = [
   { name: "Héctor Reyes", id: "23-0584", image: hectorReyes },
-  { name: "Luis Pascual", id: "23-0238", image: dafaultProfile },
-  { name: "Onily Valera", id: "23-0895", image: dafaultProfile },
-  { name: "Johnny Rondón", id: "23-0421", image: dafaultProfile },
-  { name: "Miguel Cuevas", id: "23-0688", image: dafaultProfile },
+  { name: "Luis Pascual", id: "23-0238", image: luisPascual },
+  { name: "Onily Valera", id: "23-0895", image: onilyValera },
+  { name: "Johnny Rondón", id: "23-0421", image: johnnyRondon },
+  { name: "Miguel Cuevas", id: "23-0688", image: miguelCuevas },
 ];
 
 export const Colaborators = () => {
@@ -27,7 +31,7 @@ export const Colaborators = () => {
               <img
                 src={collaborator.image}
                 alt={collaborator.name}
-                className="w-32 h-32 rounded-full mx-auto mb-4"
+                className="w-32 h-32 object-cover rounded-full mx-auto mb-4"
               />
               <h3 className="text-xl font-semibold text-blue-700">
                 {collaborator.name}
