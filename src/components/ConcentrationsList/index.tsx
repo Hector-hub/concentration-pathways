@@ -70,7 +70,7 @@ export const ConcentrationsList = () => {
         id="ConcentrationsList"
         className="text-4xl font-bold text-center text-transparent bg-clip-text bg-gradient-to-r from-blue-700 to-gray-400 mb-6"
       >
-        Concentraciones
+        CONCENTRACIONES
       </h1>
       <p className="mb-20 text-lg text-gray-500 text-center">
         Estas concentraciones ofrecen un conjunto estructurado de asignaturas

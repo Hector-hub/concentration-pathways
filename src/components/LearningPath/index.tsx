@@ -185,13 +185,24 @@ export const LearningPath = () => {
   return (
     <section className="px-4 py-24 mx-auto  bg-gray-100">
       <h1 className="text-4xl font-bold text-center text-transparent bg-clip-text bg-gradient-to-r from-blue-700 to-gray-400 mb-6">
-        Rutas de aprendizaje
+        RUTAS DE APRENDIZAJE
       </h1>
       <p className="mb-20 text-lg text-gray-500 text-center">
         Descubre los caminos de aprendizaje para alcanzar cada concentración
         académica. Cada badge representa una materia clave en tu ruta de
         estudio.
       </p>
+      <div className="flex justify-center w-full mt-10 mb-20">
+        <Badge
+          code={learningPaths[0].subjects[3].code}
+          description={learningPaths[0].subjects[3].description}
+          prerequisite={learningPaths[0].subjects[3].prerequisite}
+          color={`${learningPaths[0].badgeColors}`}
+          borderColor={` bg-gradient-to-r ${learningPaths[0].badgeColorsBorder}  `}
+          textColor={" text-black"}
+          isForExplanation={true}
+        />
+      </div>
 
       <div className="space-y-16">
         {learningPaths.map((path, index) => (

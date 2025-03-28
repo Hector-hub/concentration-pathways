@@ -17,7 +17,7 @@ export const Colaborators = () => {
   return (
     <main className="container mx-auto px-6 py-16">
       <h1 className="text-4xl font-bold text-center text-transparent bg-clip-text bg-gradient-to-r from-blue-700 to-gray-400 mb-6">
-        Colaboradores
+        COLABORADORES
       </h1>
 
       {/* Scroll horizontal en móvil/tablet, pero en PC se acomoda en filas */}
